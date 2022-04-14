@@ -46,5 +46,5 @@ double num1=0,num2=0,num3=0,num4=0,num5=0,num6=0,num7=0,num8=0,average=0;
 	System.out.println(average <50 ? "Fail" : "Pass" );
 
 
-}
+	}
 }
