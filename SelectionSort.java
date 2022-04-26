@@ -21,11 +21,8 @@ public class SelectionSort
 					temp=a;
 				}
 			}
-
 			array[temp]=array[i];
-
 			array[i]=min;
-
 		}
 		return array;
 	}
@@ -34,8 +31,6 @@ public class SelectionSort
 	public static void main(String [] args)
 	{
 		int array1[]= {12,21,4,1432,65412,11,7654,65};
-
-	
 		int newArray[]= Arrays.copyOfRange(SortBySelection(array1),0,(array1.length));
 
 		for(int i=0;i<array1.length;i++)
